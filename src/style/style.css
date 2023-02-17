@@ -1,0 +1,172 @@
+.welcome, .register, .login{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../public/img/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.visualize{
+    width: 100vw;
+    height: 100vh;
+}
+.welcome-center .click-welcome{
+    width: 100%;
+}
+.welcome-center h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.dont-account{
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+    justify-content: center;
+}
+.dont-account span:last-child,.rgt span:last-child{
+    color: brown;
+    padding: 3px 5px;
+    border-radius: 2px;
+}
+
+.rgt{
+    margin-top: -5%;
+}
+
+.form-box{
+    background-color: rgba(236, 236, 236,0.5);
+    position: relative;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 450px;
+    width: 40%;
+}
+.box-logo{
+    background-image: url('../../public/img/pngwing.com.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 250px;
+    margin: 0 auto 4% auto;
+}
+
+.title-box{
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+    font-weight: 500;
+}
+.header{
+    height: 8vh;
+    width: 100vw;
+}
+.header-main{
+    /* background-image: url('../../public/img/header.jpg'); */
+    /* background-color: white; */
+    box-shadow: 2px 2px 4px #000000;;
+    height: 8vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1{
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+    /* color: black; */
+}
+.header .header-left, .header-right{
+    text-align: center;
+    align-items: center;
+    height: 8vh;
+}
+.header-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-left-icon{
+    background-image: url('../../public/img/pngwing.com.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 55px;
+    height: 7vh;
+    cursor: pointer;
+}
+.header-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.edgebutton {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 1;
+    color: white;
+}
+  
+.edgebutton:hover {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.08);
+}
+  
+.edgebutton-foreignobject div {
+    background: transparent;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+}
+
+.themeColorBg{
+    position: absolute;
+    left: 97%;
+    top: 10%;
+    z-index: 999;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.ant-upload{
+    color: red !important;
+}
+
+.select-button{
+    height: 20px;
+    border: 1px solid !important;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
+.select-button:hover{
+    background-color: teal !important;
+    color: white !important;
+}
+
+.info-user{
+    margin-right: 20px;
+    align-items: center;
+}
+.name-user{
+    color: white;
+    font-weight: 500;
+}
