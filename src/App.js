@@ -1,7 +1,7 @@
 import { Route, Routes, useRouteError } from "react-router-dom";
 import Error from "./pages/Error";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+import Login from "./pages/auth/Login";
+import Register from "./pages/auth/Register";
 import Visualize from "./pages/Visualize";
 import Welcome from "./pages/Welcome";
 

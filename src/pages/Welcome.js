@@ -37,15 +37,9 @@ function Welcome() {
                     size='large'
                     className='click-welcome'
                 >
-                    {click === true && <Navigate to={'/login'} replace={true} />}
+                    {click === true && <Navigate to={'/visualize'} replace={true} />}
                     Click To Continue!
                 </Button>
-                <div className='dont-account'>
-                    <span>Don't have a account!&ensp;</span>
-                    <Link to={'/register'} className='link'>
-                        <span>Sign Up</span>
-                    </Link>
-                </div>
             </Box>
         </div>
     )
