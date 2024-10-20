@@ -63,8 +63,8 @@ function Sidebar() {
             backgroundColor: background
           }}
         >
-          <Accordion defaultIndex={[0, 1, 2]} allowToggle allowMultiple>
-            <AccordionItem border="none">
+          <Accordion defaultIndex={[]} allowToggle allowMultiple>
+            <AccordionItem border="none" >
               <h2>
                 <AccordionButton>
                   <Box flex="1" textAlign="left">

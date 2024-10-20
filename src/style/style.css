@@ -12,6 +12,7 @@
 .visualize{
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 .welcome-center .click-welcome{
     width: 100%;
@@ -62,28 +63,23 @@
     font-weight: 500;
 }
 .header{
-    height: 8vh;
+    height: 6vh;
     width: 100vw;
 }
 .header-main{
-    /* background-image: url('../../public/img/header.jpg'); */
-    /* background-color: white; */
     box-shadow: 2px 2px 4px #000000;;
-    height: 8vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 6vh;
+    border-bottom: 1px solid teal;
 }
 .header h1{
     font-size: 20px;
     cursor: pointer;
     margin-left: 10px;
-    /* color: black; */
 }
 .header .header-left, .header-right{
     text-align: center;
     align-items: center;
-    height: 8vh;
+    height: 6vh;
 }
 .header-left{
     display: flex;
@@ -96,7 +92,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 55px;
-    height: 7vh;
+    height: 5vh;
     cursor: pointer;
 }
 .header-right{
